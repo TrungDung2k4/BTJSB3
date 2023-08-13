@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài Tập DOM</title>
+  </head>
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+    crossorigin="anonymous"
+  />
+  <link rel="stylesheet" href="./index.css" />
+  <body>
+    <!-- Bài 1 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2 class="mb-4">Sắp Xếp Giá Trị</h2>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 1"
+            id="Number1"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 2"
+            id="Number2"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 3"
+            id="Number3"
+          />
+        </div>
+      </div>
+      <button id="sortingNumbers">Sắp Xếp</button>
+      <div class="result exercise__item" id="sortedNumbers"></div>
+    </div>
+    <!-- Bài 2 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2>Chào Hỏi</h2>
+      <div class="form-group">
+        <input
+          type="text"
+          class="form-control text-center exercise__item"
+          placeholder="Thành Viên"
+          id="member"
+        />
+      </div>
+      <button id="welcome">Chào</button>
+      <div class="result exercise__item" id="welcomed"></div>
+    </div>
+    <!-- Bài 3 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2 class="mb-4">Đếm Chẵn Lẻ</h2>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 1"
+            id="Num1"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 2"
+            id="Num2"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Số Thứ 3"
+            id="Num3"
+          />
+        </div>
+      </div>
+      <button id="countingNumberTypes">Đếm</button>
+      <div class="result exercise__item" id="countedNumberTypes"></div>
+    </div>
+    <!-- Bài 4 -->
+    <div class="exercise text-center mx-auto mt-5">
+      <h2 class="mb-4">Xác Định Tam Giác</h2>
+      <div class="row mb-4">
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Cạnh Thứ 1"
+            id="Edge1"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Cạnh Thứ 2"
+            id="Edge2"
+          />
+        </div>
+        <div class="col">
+          <input
+            type="text"
+            class="form-control text-center exercise__item"
+            placeholder="Cạnh Thứ 3"
+            id="Edge3"
+          />
+        </div>
+      </div>
+      <button id="identifyingTriangleTypes">Xác Định</button>
+      <div class="result exercise__item" id="identifiedTriangleTypes"></div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
