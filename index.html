@@ -48,14 +48,13 @@
     <!-- Bài 2 -->
     <div class="exercise text-center mx-auto mt-5">
       <h2>Chào Hỏi</h2>
-      <div class="form-group">
-        <input
-          type="text"
-          class="form-control text-center exercise__item"
-          placeholder="Thành Viên"
-          id="member"
-        />
-      </div>
+      <select id="member" class="custom-select mb-4 text-center">
+        <option selected>Chọn Thành Viên</option>
+        <option value="B">Bố</option>
+        <option value="M">Mẹ</option>
+        <option value="A">Anh Trai</option>
+        <option value="E">Em Gái</option>
+      </select>
       <button id="welcome">Chào</button>
       <div class="result exercise__item" id="welcomed"></div>
     </div>
