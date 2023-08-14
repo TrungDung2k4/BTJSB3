@@ -15,12 +15,15 @@ document.getElementById("sortingNumbers").onclick = () => {
 };
 // Bài 2
 document.getElementById("welcome").onclick = () => {
-  var member = document.getElementById("member").value;
-  var welcome;
-  if (member === "B") welcome = "Chào Bố";
-  else if (member === "M") welcome = "Chào Mẹ";
-  else if (member === "A") welcome = "Chào Anh Trai";
-  else welcome = "Chào Em Gái";
+  var member =
+    document.getElementById("member").options[
+      document.getElementById("member").selectedIndex
+    ].value;
+  var welcome = "Chào ";
+  if (member === "B") welcome += "Bố";
+  else if (member === "M") welcome += "Mẹ";
+  else if (member === "A") welcome += "Anh Trai";
+  else welcome += "Em Gái";
   document.getElementById("welcomed").innerHTML = welcome;
 };
 // Bài 3
